@@ -31,5 +31,5 @@ jobs:
       with:
         app-name: 'jsminigame'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_5735410a8ef14d50886e846dd4ceb98c }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_ff02018376254c198e7fe318453374be }}
         package: ${{env.DOTNET_ROOT}}/myapp 
